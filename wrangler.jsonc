@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "no-lock-auto-config",
+  "compatibility_date": "2025-11-18",
+  "observability": {
+    "enabled": true
+  },
+  "main": "dist/_worker.js/index.js",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "dist"
+  }
+}
